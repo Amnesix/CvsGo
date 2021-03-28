@@ -18,4 +18,9 @@ Pour le Go :
 Le résultat sur mon PC : **~150ms en C conte ~15ms en Go !!!** Soit 10× plus
 rapide en go !
 
-Y-a-t'il un autre niveau d'optimisation pour le C que j'aurais raté ?
+---------
+Je viens de tester avec une autre grille, et la les résultats sont complètement
+différents :
+
+**3.972s en C contre 21.956s en Go** ! La différence est considérable et en faveur du
+C. Je ne sais pas trop comment interpréter ces différences.

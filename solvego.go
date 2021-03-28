@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-const tstCG2 string = "8..........36......7..9.2...5...7.......457.....1...3...1....68..85...1..9....4.."
+const tst294 string = "....12.8.5..8...........73..85......6..9.3....2..6..4..6..2....7..3.9..2..2..19.."
+const tst295 string = "....14....3....2...7..........9...3.6.1.............8.2.....1.4....5.6.....7.8..."
 const CASE_VIDE = '.'
 
 type Sudoku [9][9]byte
@@ -70,7 +71,7 @@ func (s *Sudoku) Affiche() {
 
 func main() {
 	for r := 0; r < 9; r++ {
-		line := tstCG2[r*9 : (r+1)*9]
+		line := tst295[r*9 : (r+1)*9]
 		for c := 0; c < 9; c++ {
 			sudoku[r][c] = line[c]
 		}
